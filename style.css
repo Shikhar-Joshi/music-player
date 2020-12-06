@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+body{
+    background-color: magenta;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#header{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#songInfo{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#imageContainer{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+#imageContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#controls{
+    width: 150px;
+    height: 40px;
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    cursor: pointer;
+}
+#playBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: magenta;
+}
+.fa-play, .fa-pause{
+    color: white;
+    font-size: 18px;
+}
+#prevBtn, #nextBtn{
+    background: none;
+    border: none;
+}
+.fa-forward, .fa-backward{
+    color: lightgray;
+    font-size: 16px;
+}
+
+
+
+
