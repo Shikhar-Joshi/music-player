@@ -5,15 +5,15 @@
     font-family: lato;
 }
 body{
-    background-color: magenta;
+    background: linear-gradient(to right, #f32170, #ffeb07);
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
 }
 .container{
-    width: 250px;
-    height: 500px;
+    width: 15%;
+    height: 50%;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -32,7 +32,7 @@ body{
 #songInfo{
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ body{
 #imageContainer{
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 50%;
 }
 #imageContainer img{
@@ -52,10 +52,17 @@ body{
 #controls{
     width: 150px;
     height: 40px;
-    border: 2px solid lightgray;
+    border: 2px solid magenta;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 10px;
+}
+#controls:visited{
+    border: none;
+}
+#controls:active{
+    border: none;
 }
 button{
     cursor: pointer;
@@ -65,7 +72,7 @@ button{
     height: 50px;
     border-radius: 50%;
     border: none;
-    background-color: magenta;
+    background-color: orange;
 }
 .fa-play, .fa-pause{
     color: white;
