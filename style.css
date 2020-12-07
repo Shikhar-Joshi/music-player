@@ -58,11 +58,8 @@ body{
     justify-content: space-around;
     border-radius: 10px;
 }
-#controls:visited{
-    border: none;
-}
-#controls:active{
-    border: none;
+button:focus{
+    outline: none;
 }
 button{
     cursor: pointer;
