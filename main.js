@@ -8,13 +8,13 @@ let songName = document.getElementById('songName');
 
 let allSongs = [
 
-    Music1 = {
+    {
         artist: 'Maninder Buttar',
         musicFile: 'songs/Sakhiyaan - Maninder Buttar.mp3',
         musicName: 'Sakhiyaan',
         artistPic: 'https://images.genius.com/6c161d7902fd9ae072792f136251ce42.781x781x1.jpg'
     },
-    Music2 = {
+    {
         artist: 'Millind Gaba Ft Kamal Raja',
         musicFile: 'songs/Nazar Lag Jayegi - Millind Gaba Ft Kamal Raja 320 Kbps.mp3',
         musicName: 'Nazar Lag Jayegi',
